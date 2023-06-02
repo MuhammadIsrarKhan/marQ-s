@@ -25,6 +25,14 @@
   --tw-content: '';
 }
 
+
+.owl-carousel {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -1375,6 +1383,9 @@ cite {
   padding: 0 20px;
   margin: 0px 0px;
   padding-right: 40px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .owl-carousel .owl-stage-outer{
@@ -1524,10 +1535,33 @@ hr{
   outline-offset: 2px;
 }
 
+.owl-carousel .owl-stage {
+  position: absolute;
+  left: 1%;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 350px) {
+  .owl-carousel .owl-stage {
+    position: absolute;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+}
+.form {
+ margin: 10px;
+}
+
 @media (min-width: 768px) {
   .md\:top-40 {
     top: 10rem;
   }
+  .owl-carousel .owl-stage {
+    position: absolute;
+    left: 30%;
+    transform: translateX(-50%);
+  }
+  
 
   .md\:right-2 {
     right: 0.5rem;
@@ -1733,6 +1767,13 @@ hr{
 @media (min-width: 1024px) {
   .lg\:right-4 {
     right: 1rem;
+  }
+  
+  .lg-hidden {
+    display: none;
+  }
+  .lg-block {
+    display: block;
   }
 
   .lg\:mx-32 {

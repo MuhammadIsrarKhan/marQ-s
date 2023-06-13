@@ -18,5 +18,8 @@
   "homepage": "https://github.com/MuhammadIsrarKhan/marQ-s#readme",
   "dependencies": {
     "tw-elements": "^1.0.0-beta2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }

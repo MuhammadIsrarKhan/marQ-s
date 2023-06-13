@@ -5,631 +5,408 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/output.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"/>
-    <title>Dyson</title>
+    <title>Home</title>
   </head>
   <body>
-    <!-- hero section  -->
-    <div class="bg-white pb-10">
-      <div
-      class=" lg:hidden mx-auto md:w-[350px] w-[250px] xl:w-[650px] 2xl:w-[750px] pr-3 mt-5"
-    >
-      <p
-        class="bg-white text-center font-bold  text-[8px] p-3 rounded-md md:text-xs"
-      >
-        If you really want a flawless real estate closing
-        <span class="text-blue-800"> Do what I did.</span> 
-        I simulated my closing in advance
-        <span class="text-blue-800">ClosingSimulator.com is a Must</span>
-      </p>
-      <p
-        class="bg-white  text-[8px] md:text-xs mt-4 md:p-5 p-3 pt-1 px-6 font-medium text-center relative xl:p-10 xl:text-lg 2xl:text-2xl rounded-md"
-      >
-        The Dyson & Dyson Closing Simulator <br />
-        “Trusted by thousands of real estate buyers and sellers since the
-        early 1980’s with confidence.” <br />
-        <span class="absolute right-10 xl:right-14 italic">Robert Dyson <br>
-          Dyson & Dyson Real Estate  <br>
-          CA.DRE # 02079235</span>
-      </p>
-    </div>
+    <div class="Container">
+      <header>
+        <!-- ticker start  -->
+        <div class="ticker-wrap">
+          <div class="ticker">
+            <div class="ticker__item">
+              <span class="text-red-600 font-semibold"
+                >…………………………BREAKING NEWS…………………………</span
+              >
+              Housing Markets across the United States showing increased
+              activity
+              <span class="text-red-600 font-semibold"
+                >…………………………BREAKING NEWS…………………………</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- ticker end  -->
         <img
-          src="assets/images/background-img.png"
-          class="w-full h-[300px] object-cover md:h-[100vh] md:object-cover mt-5 md:mt-0 p-2 md:p-0"
-          alt="heroImg"
-        />
-        <img
-          src="assets/images/dyson.PNG"
-          class="absolute left-3 md:right-2 top-2 w-[40px] h-[80px] lg:w-[80px] lg:h-[140px] 2xl:w-[110px] 2xl:h-[170px] object-cover lg:hidden"
+          src="/assets/images/DNN.png"
           alt="logo"
+          class="rounded-lg overflow-hidden w-[32px] h-[32px] object-cover fixed top-0 left-0 bg-black"
         />
-        <img
-          src="assets/images/dyson.PNG"
-          class="absolute  right-2 top-2 w-[40px] h-[80px] lg:w-[80px] lg:h-[140px] 2xl:w-[110px] 2xl:h-[170px] object-cover hidden lg:block"
-          alt="logo"
-        />
-       
-        <div
-          class="absolute bottom-2 hidden lg:block left-6 md:w-[350px] w-[250px] xl:w-[650px] 2xl:w-[750px] pr-3"
+        <!-- Main navigation container -->
+        <nav
+          class="flex w-full flex-nowrap items-center justify-between py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 bg-neutral-600 lg:bg-white fixed lg:flex-wrap lg:justify-start lg:py-4 mt-8 z-[500]"
+          data-te-navbar-ref
         >
-          <p
-            class="bg-white border border-solid border-blue-500 font-bold md:text-xl text-[8px] p-3 rounded-md"
+          <div
+            class="flex w-full flex-wrap items-center justify-between px-3 relative"
           >
-            If you really want a flawless real estate closing
-            <span class="text-blue-800"> Do what I did.</span> <br />
-            I simulated my closing in advance
-            <span class="text-blue-800">ClosingSimulator.com is a Must</span>
-          </p>
-          <p
-            class="bg-white border border-solid border-slate-600 text-[8px] md:text-xs mt-4 md:p-5 p-3 pt-1 px-6 font-medium text-center relative xl:p-3 xl:text-base 2xl:text-2xl rounded-md h-[160px]"
+            <!-- Hamburger button for mobile view -->
+            <img
+              src="/assets/images/logo_1.png"
+              alt="logo"
+              class="rounded-lg overflow-hidden xl:w-[50px] xl:h-[50px] w-[30px] h-[30px] object-cover z-[100] lg:hidden"
+            />
+            <button
+              class="flex justify-end border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+              type="button"
+              data-te-collapse-init
+              data-te-target="#navbarSupportedContent3"
+              aria-controls="navbarSupportedContent3"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <!-- Hamburger icon -->
+              <span class="[&>svg]:w-7">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="h-7 w-7"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </span>
+            </button>
+
+            <!-- Collapsible navbar container -->
+            <div
+              class="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+              id="navbarSupportedContent3"
+              data-te-collapse-item
+            >
+              <ul
+                class="lg:flex lg:flex-row items-center justify-center gap-3 xl:gap-4 w-full md:bg-neutral-600 lg:bg-white z-[200] text-white lg:text-black"
+                data-te-navbar-nav-ref
+              >
+                <li class="hidden lg:block">
+                  <img
+                    src="/assets/images/logo_1.png"
+                    alt="logo"
+                    class="rounded-lg overflow-hidden xl:w-[50px] xl:h-[50px] w-[30px] h-[30px] object-cover z-[100]"
+                  />
+                </li>
+                <li class="text-base md:text-[10px] lg:text-xs xl:text-sm">
+                  Home
+                </li>
+                <li class="text-base md:text-[10px] lg:text-xs xl:text-sm">
+                  My Followers
+                </li>
+                <li class="text-base md:text-[10px] lg:text-xs xl:text-sm">
+                  Marketing Campaigns
+                </li>
+                <li class="text-base md:text-[10px] lg:text-xs xl:text-sm">
+                  Property Search
+                </li>
+                <li class="text-base md:text-[10px] lg:text-xs xl:text-sm">
+                  News/Libraries
+                </li>
+                <li class="text-base md:text-[10px] lg:text-xs xl:text-sm">
+                  Products & Services
+                </li>
+                <li class="text-base md:text-[10px] lg:text-xs xl:text-sm">
+                  Communications
+                </li>
+                <li class="text-base md:text-[10px] lg:text-xs xl:text-sm">
+                  Dashboard
+                </li>
+                <li
+                  class="px-10 py-[2px] lg:px-10 xl:px-20 max-w-fit lg:h-[30px] rounded-md bg-yellow-300 ml-0 xl:ml-14 text-base flex items-center justify-center"
+                >
+                  Log in
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <!-- hero section  -->
+        <div class="w-full h-full md:flex md:flex-row flex flex-col mt-16 md:mt-3">
+          <div
+            class="md:w-[50%] h-full flex flex-col gap-7 items-center justify-center"
           >
-            The Dyson & Dyson Closing Simulator <br />
-            “Trusted by thousands of real estate buyers and sellers since the
-            early 1980’s with confidence.” <br />
-            <span class="absolute right-10 xl:right-14 italic">Robert Dyson <br>
-              Dyson & Dyson Real Estate  <br>
-              CA.DRE # 02079235</span>
-          </p>
-        </div>
-     
-    </div>
-    <!-- second page  -->
-    <div class="md:mx-20">
-      <div class="md:flex md:flex-row flex flex-col w-full">
-        <div
-          class="md:w-[40%] lg:w-[30%] p-3 flex items-center justify-center 2xl:ml-10 xl:p-0"
-        >
-          <img
-            src="assets/images/second-page.jpg"
-            alt="secondpageimg"
-            class="w-auto h-auto xl:w-[400px] xl:h-[400px] object-contain"
-          />
-        </div>
-        <div class="md:w-[60%] lg:w-[70%] px-10 text-center 2xl:px-20">
-          <h1 class="h1 font-bold text-xl">Closing Simulator benefits</h1>
-          <p class="mt-8 text-justify">
-            The Dyson & Dyson
-            <span class="font-semibold">Closing Simulator.com</span> is a tool
-            developed in collaboration with Home Media Corporation and our
-            affiliated title companies. It has completely transformed the real
-            estate services landscape.
-          </p>
-          <p class="text-justify">
-            We are proud to present a seamless and innovative solution that will
-            revolutionize your home buying and selling experience, making it
-            transparent, stress-free, and efficient. Closing Simulator is an
-            entirely different experience that extinguishes real estate closing
-            fires before they start and in most cases can save you thousands of
-            Dollars in closing costs
-          </p>
-          <h1 class="h1 font-bold text-xl mt-10">
-            Say goodbye to unexpected surprises and delays in the closing
-            process.
-          </h1>
-          <p class="mt-8 text-justify">
-            With our unique Dyson & Dyson Closing Simulator.com, we run a
-            comprehensive escrow simulation upfront, which exposes any potential
-            obstacles and provides you with a clear understanding of the entire
-            escrow process, what to expect and what you will be required to
-            provide, review and sign when your real closing experience occurs.
-            The simulation helps to ensure a seamless and uninterrupted real
-            estate closing, giving you peace of mind as you move forward to the
-            real thing! The Dyson & Dyson Closing Simulator is both a Home Media
-            Affiliate and AI driven process that is the best planning tool on
-            your way to a hassle-free real estate transaction
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- third page black card  -->
-    <!-- <div class="w-full h-[80px] bg-black relative">
-      <img
-        src="assets/images/dyson.PNG"
-        alt="logo"
-        class="w-[50px] h-full absolute right-1"
-      />
-    </div> -->
-    <!-- cards  -->
-    <h1 class="h1 text-xl font-bold text-center mt-10">
-      The steps to your Closing Simulation
-    </h1>
-    <div
-      class="md:flex md:flex-row flex flex-col gap-4 items-center justify-center px-12 lg:px-32 2xl:px-64 mt-10"
-    >
-      <div class="flex flex-col">
-        <img
-          src="assets/images/imgbox1.PNG"
-          alt="first card img "
-          class="md:h-[200px] md:w-[210px] object-cover"
-        />
-        <p class="font-bold">
-          Provide us with a few answers to basic real estate closing questions
-        </p>
-        <p>
-          Current Selling or Buying Status, property addresses, contact
-          Information, purchase or sale timeline and your closing objectives.
-        </p>
-      </div>
-      <div class="flex flex-col">
-        <img
-          src="assets/images/imgbox2.PNG"
-          alt="first card img"
-          class="md:h-[200px] md:w-[210px] object-cover"
-        />
-        <p class="font-bold">
-          Provide us with a few answers to basic real estate closing questions
-        </p>
-        <p>
-          Current Selling or Buying Status, property addresses, contact
-          Information, purchase or sale timeline and your closing objectives.
-        </p>
-      </div>
-      <div class="flex flex-col">
-        <img
-          src="assets/images/imgbox3.PNG"
-          alt="first card img"
-          class="md:h-[200px] md:w-[210px] object-cover"
-        />
-        <p class="font-bold">
-          Provide us with a few answers to basic real estate closing questions
-        </p>
-        <p>
-          Current Selling or Buying Status, property addresses, contact
-          Information, purchase or sale timeline and your closing objectives.
-        </p>
-      </div>
-    </div>
-    <!-- black line  -->
-    <!-- <div class="mx-10 mt-10">
-      <div class="w-full md:h-[50px] h-[20px] bg-black"></div>
-    </div> -->
-    <!-- fourth page  -->
-
-    <!-- Testimonial  -->
-    <section class="testimonial-area testimonial-body my-5">
-        <div class="container">
-            <div class="sec-title">
-                <h2 class="h1 text-xl font-bold text-center mt-10">What our Affiliated Agents are saying</h2>
+            <div
+              class="flex flex-row gap-8 xl:gap-5 items-center w-full justify-center"
+            >
+              <h1
+                class="font-Italiano xl:text-7xl text-4xl font-bold text-zinc-500"
+              >
+                Welcome
+              </h1>
+              <img
+                src="/assets/images/logo_1.png"
+                alt="logo"
+                class="rounded-2xl w-[80px] xl:w-[150px] object-cover h-[80px] xl:h-[150px] overflow-hidden"
+              />
             </div>
-            <div class="testimonial-content owl-carousel" >
-                <div class="single-testimonial"  >
-                    <p> My closing simulation initially discovered that I was not actually
-                      in title to the property that I inherited. Dyson & Dyson took me
-                      through to legal ownership, removal of squatters and more
-                      obstacles br that you could not even imagine.</p>
-                    <div class="client-info" style="position: absolute; bottom: 30px; right: 0px; left: 0px;">
-                        <div class="client-details">
-                          <h6>HEELENA</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-testimonial"  >
-                    <p>My closing simulation was a good decision and timely event. It was
-                      an easy online process which discovered 9 property title issues
-                      that we were able to address before it held up my purchase. Highly
-                      recommend to anyone who’s looking to avoid those last minute
-                      nightmares we hear about.</p>
-                    <div class="client-info" style="position: absolute; bottom: 30px; right: 0px; left: 0px;">
-                        <div class="client-details">
-                          <h6>EMA</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-testimonial" >
-                    <p> We were able to beat competing offers because we were prepared for
-                      all the questions the seller required. We not only looked
-                      prepared…we were prepared thanks to our Dyson & Dyson Closing
-                      Simulator. This program is a slam dunk! </p>
-                    <div class="client-info" style="position: absolute; bottom: 30px; right: 0px; left: 0px;">
-                        <div class="client-details">
-                          <h6>Stacy</h6>
-                     
-                        </div>
-                    </div>
-                </div>
+            <p class="font-DM text-xs lg:text-lg font-medium">
+              “Your everything real estate dashboard app”
+            </p>
+            <button
+              class="px-4 py-1 bg-yellow-300 rounded-md text-sm lg:text-lg"
+            >
+              Get Started
+            </button>
+          </div>
+          <div class="md:w-[50%] bg-black h-full mt-5 md:mt-0">
+            <div class="m-10">
+              <img
+                src="/assets/images/login.jpg"
+                alt=""
+                class="w-full h-full md:h-[170px] lg:h-[250px] 2xl:h-full object-cover"
+              />
+              <div class="flex flex-row items-center justify-center gap-5 mt-5">
+                <p class="text-white text-xl text-center">
+                  Feel Free to scroll through your Home Dashboard
+                </p>
+                <!-- <img src="/assets/images/dash_icon.png" class="w-20 h-20" alt="" /> -->
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!-- fifth page start  -->
-    <div class="md:flex md:flex-row flex flex-col mt-44 text-base">
-      <div
-        class="md:w-[50%] flex flex-col items-center gap-10 text-justify px-10 3xl:px-72"
-      >
-        <div class="flex flex-col items-center justify-center gap-3">
-          <img src="assets/images/dyson.PNG" alt="logo" class="w-[50px] h-[100px]" />
-          <h1 class="h1 text-xl font-semibold text-center">
-            We do right by you
-          </h1>
-        </div>
-        <p class="font-medium">
-          There is no expense to you for our services. We are funded via
-          referral fees in some cases and where allowable by law. <br />
-          We act very quickly to design your simulated sale usually with input
-          from local agents and real estate service providers in your area.
-          <br />
-          We strive for all issues and opportunities to be properly disclosed
-          and presented in your simulation. <br />
-          PLUS …We often offer best case scenarios to solve issues before you
-          list or buy. <br />
-          The closing simulator is not available to listed property owners or
-          agent represent buyers and also interview and recommend agents, title
-          and closing companies before you select your course of action. <br />
-          <span class="font-bold text-base text-center"
-            >ClosingSimulator.com. (858) 353-1200</span
+        <!-- hero section end  -->
+      </main>
+      <!-- sidebar dashbaord start  -->
+      <div class="flex space-x-2">
+        <div>
+          <div
+            class="invisible fixed bottom-0 left-0 top-0 z-[1045] flex w-96 max-w-full -translate-x-full flex-col border-none bg-clip-padding  shadow-sm outline-none transition duration-300 ease-in-out bg-neutral-800 text-neutral-200 [&[data-te-offcanvas-show]]:transform-none"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+            data-te-offcanvas-init
           >
-        </p>
-      </div>
-      <div class="md:w-[50%] h-auto bg-black">
-        <div class="flex flex-row justify-between  gap-6 md:gap-0 p-10">
-          <img
-            src="assets/images/stress.PNG"
-            alt=""
-            class="md:w-[200px] md:h-[250px] w-[50%] h-[250px] border-[2px] border-solid border-white"
-          />
-          <img
-            src="assets/images/logo-transp.png"
-            alt=""
-            class="md:w-[150px] md:h-[150px] w-[50%] h-[150px] object-contain"
-          />
-        </div>
-        <img
-          src="assets/images/stress.PNG"
-          alt=""
-          class="md:h-[200px] w-[60%] lg:w-[70%] h-[150px] border-[2px] border-solid border-white ml-20 md:ml-32 -translate-y-12 z-10 object-cover"
-        />
-        <h1 class="text-yellow-600 font-bold text-lg text-center">
-          The real estate closing process does not need to be a bad trip!
-        </h1>
-      </div>
-    </div>
-    <!-- sixth page  -->
-    <div class="md:flex md:flex-row flex flex-col mt-32">
-      <div
-        class="md:w-[50%] flex flex-col items-center gap-10 text-justify px-10 3xl:px-72"
-      >
-        <h1 class="h1 text-xl font-bold text-center px-10">
-          Our Simulator specialists are with you, every step of the way
-        </h1>
-        <p class="font-semibold">
-          Believe it or not and unlike many other online media services, we
-          actually answer the phone and counsel with you through the entire
-          simulation process just as if we are closing a real escrow and beyond.
-          <br />
-          Our Home Community Concierge will provide ongoing guidance and support
-          to you all along the way. <br />
-          Just as important, your Home Concierge stands by with additional real
-          estate tools and services through your personal Home Media app.
-        </p>
-      </div>
-      <div
-        class="md:w-[50%] bg-black border-[2px] border-solid border-yellow-500 flex flex-row p-5"
-      >
-        <div class="flex flex-col items-center justify-center">
-          <img
-            src="assets/images/men.PNG"
-            alt="men image"
-            class="w-[200px] h-[300px]"
-          />
-          <p class="text-lg text-yellow-500 font-semibold mx-auto">
-            Home Concierge
-          </p>
-        </div>
-        <img
-          src="assets/images/logo-transp.png"
-          alt=""
-          class="md:w-[200px] md:h-[200px] w-[50%] h-[150px] object-contain"
-        />
-      </div>
-    </div>
-    <!-- seventh form page  -->
+            <div class="flex items-center justify-between p-4">
+              <h5
+                class="mb-0 font-semibold leading-normal"
+                id="offcanvasExampleLabel"
+              >
+                Mini Apps
+              </h5>
+              <button
+                type="button"
+                class="box-content rounded-none border-none opacity-50 hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
+                data-te-offcanvas-dismiss
+              >
+                <span
+                  class="w-[1em] focus:opacity-100 disabled:pointer-events-none disabled:select-none disabled:opacity-25 [&.disabled]:pointer-events-none [&.disabled]:select-none [&.disabled]:opacity-25"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-6 w-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
 
-    <div
-      class="border-[2px] border-solid border-slate-600 flex flex-col bg-slate-300 mt-5 relative rounded-md form md:mx-1"
-    >
-      <div class="flex flex-row items-center justify-center mt-10">
-        <p
-          class="md:p-3 p-1 bg-blue-600 text-white text-[8px] md:text-base lg:text-lg lg:w-[700px] rounded-md"
-        >
-          Simply fill out our questionnaire and let’s start your Simulation
-          Process
-        </p>
+            <div class="grid grid-cols-3 overflow-y-auto p-4">
+              <p class="text-[#f1d657] text-xs col-span-3">
+                The Buying Process
+              </p>
+              <div class="flex flex-col items-center mt-1">
+                <img
+                  src="/assets/images/logo_1.png"
+                  alt="logo"
+                  class="w-12 h-12 rounded-lg overflow-hidden object-cover"
+                />
+                <p class="text-white font-normal text-[10px]">
+                  Concierge Services
+                </p>
+              </div>
+              <div class="flex flex-col items-center mt-1">
+                <img
+                  src="/assets/images/logo_1.png"
+                  alt="logo"
+                  class="w-12 h-12 rounded-lg overflow-hidden object-cover"
+                />
+                <p class="text-white font-normal text-[10px]">
+                  Concierge Services
+                </p>
+              </div>
+              <div class="flex flex-col items-center mt-1">
+                <img
+                  src="/assets/images/logo_1.png"
+                  alt="logo"
+                  class="w-12 h-12 rounded-lg overflow-hidden object-cover"
+                />
+                <p class="text-white font-normal text-[10px]">
+                  Concierge Services
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sidebar dashbaord end  -->
+      <footer>
+        <!-- footer section start  -->
+        <div class="fixed bottom-0 w-full">
+          <div
+            class="bg-[#707070] md:h-[40px] w-full flex items-center justify-center"
+          >
+            <p
+              class="text-[#ddc666] text-[8px] md:text-[10px] xl:text-base text-center"
+            >
+              …………Mortgage Rates brought to you by Stonebridge Mortgage
+              858-555-5555…..FHA/VA 6.5% Fixed….Conventional ARM mortgages in
+              demand…………
+            </p>
+          </div>
+          <div
+            class="flex flex-row items-center justify-between bg-[#000000] md:px-5 md:py-4 py-2 px-4"
+          >
+            <img
+              src="/assets/images/dash_icon.png"
+              class="lg:w-10 lg:h-10 w-6 h-6"
+              alt=""
+              data-te-offcanvas-toggle
+              href="#offcanvasExample"
+              role="button"
+              aria-controls="offcanvasExample"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+            />
+            <div class="flex gap-5">
+              <button
+                class="bg-[#ddc666] px-2 md:px-8 font-semibold rounded-2xl py-1 text-[10px] lg:text-lg"
+                class="bg-[#ddc666] px-2 md:px-8 font-semibold rounded-2xl py-1 text-[10px] lg:text-lg"
+                data-te-toggle="modal"
+                data-te-target="#exampleModalCenter"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
+                ASK PING
+              </button>
+              <button
+                class="bg-[#ddc666] px-2 md:px-8 font-semibold rounded-2xl py-1 text-[10px] lg:text-lg"
+                class="bg-[#ddc666] px-2 md:px-8 font-semibold rounded-2xl py-1 text-[10px] lg:text-lg"
+                data-te-toggle="modal"
+                data-te-target="#exampleModalCenter"
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
+                Subscribe Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- modal start  -->
+      <div
+        data-te-modal-init
+        class="fixed left-0 top-0 z-[1055] hidden h-full w-full overflow-y-auto overflow-x-hidden outline-none"
+        id="exampleModalCenter"
+        tabindex="-1"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-modal="true"
+        role="dialog"
+      >
         <div
-          class="flex flex-row items-start justify-center absolute lg:right-4 right-1 top-4"
+          data-te-modal-dialog-ref
+          class="pointer-events-none relative flex min-h-[calc(100%-1rem)] w-auto translate-y-[-50px] items-center opacity-0 transition-all duration-300 ease-in-out min-[576px]:mx-auto min-[576px]:mt-7 min-[576px]:min-h-[calc(100%-3.5rem)] min-[576px]:max-w-[500px]"
         >
-          <img
-            src="assets/images/dyson.PNG"
-            alt="logo"
-            class="md:w-[50px] md:h-[100px] w-[25px] h-[50px]"
-          />
+          <div
+            class="pointer-events-auto relative flex w-full flex-col rounded-md border-none bg-clip-padding text-current shadow-lg outline-none bg-black"
+          >
+            <div
+              class="flex flex-shrink-0 items-center justify-between rounded-t-md p-4 dark:border-opacity-50"
+            >
+              <!--Modal title-->
+              <h5
+                class="text-xl font-medium leading-normal text-[#f1d67b]"
+                id="exampleModalScrollableLabel"
+              >
+                Ask Ping
+              </h5>
+              <!--Close button-->
+              <button
+                type="button"
+                class="box-content rounded-none border-none hover:no-underline hover:opacity-75 focus:opacity-100 focus:shadow-none focus:outline-none"
+                data-te-modal-dismiss
+                aria-label="Close"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="h-6 w-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <!--Modal body-->
+            <div class="relative p-4 text-white">
+              <div class="flex flex-col gap-4 text-black">
+                <div class="flex flex-row gap-2">
+                  <input
+                    type="text"
+                    class="w-full px-5 py-2 rounded-full"
+                    placeholder="Full Name"
+                  />
+                  <input
+                    type="text"
+                    class="w-full px-5 py-2 rounded-full"
+                    placeholder="+1-908-941-6051"
+                  />
+                </div>
+                <input
+                  type="text"
+                  class="w-full px-5 py-2 rounded-full"
+                  placeholder="Email Address"
+                />
+                <textarea
+                  cols="10"
+                  rows="3"
+                  class="rounded-full pl-4 pt-2"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+            </div>
+
+            <!--Modal footer-->
+            <div
+              class="flex flex-shrink-0 flex-wrap items-center justify-end rounded-b-md p-4"
+            >
+              <button
+                type="button"
+                class="inline-block bg-white px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:bg-primary-accent-100 focus:bg-primary-accent-100 focus:outline-none focus:ring-0 active:bg-primary-accent-200 rounded-full"
+                data-te-modal-dismiss
+                data-te-ripple-init
+                data-te-ripple-color="light"
+              >
+                Close
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-      <div
-        class="md:flex md:flex-row gap-5 justify-center w-full mt-6 lg:px-20 px-10 md:px-14 hidden"
-      >
-        <p
-          class="p-1 bg-gray-500 text-white text-[10px] md:text-lg max-w-fit md:px-10 text-center rounded-md px-2"
-        >
-          Selling Simulator
-        </p>
-        <p
-          class="p-1 bg-gray-500 text-white text-[10px] md:text-lg text-center rounded-md px-2 flex items-center"
-        >
-          OR
-        </p>
-        <p
-          class="p-1 bg-gray-500 text-white text-[10px] md:text-lg max-w-fit md:px-10 text-center rounded-md px-5"
-        >
-          Buying Simulator
-        </p>
-      </div>
-      <div class="md:flex md:flex-row md:items-center md:justify-center flex flex-col items-center gap-5 mt-5">
-        <p
-        class="p-1 bg-gray-500 text-white text-[10px] md:text-lg max-w-fit md:px-10 text-center rounded-md px-2 md:hidden"
-      >
-        Selling Simulator
-      </p>
-        <form class="flex flex-col gap-5 w-72">
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/men.svg"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px]"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Property Owners Name of Record"
-            />
-          </div>
-
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/location.png"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px] object-contain"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="subject property address"
-            />
-          </div>
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/money.png"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px] object-contain"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Estimated Value"
-            />
-          </div>
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/EmailIcon.svg"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px]"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Email Address"
-            />
-          </div>
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/phone.svg"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px]"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Phone Number"
-            />
-          </div>
-
-
-
-
-
-
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/Calendar.svg"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px]"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Preferred Closing Date"
-            />
-          </div>
-        <div class="md:hidden flex items-center justify-center">  <p
-          class="p-1 bg-gray-500 text-white text-[10px] md:text-lg max-w-fit md:px-10 text-center rounded-md px-2 "
-        >
-          Buying Simulator
-        </p></div>
-        </form>
-        <form class="flex flex-col gap-5 w-72">
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/men.svg"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px]"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Property Buyers Name"
-            />
-          </div>
-       
-
-          
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/location.png"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px] object-contain"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Proposed Property Address"
-            />
-          </div>
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/money.png"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px] object-contain"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Estimated purchase price"
-            />
-          </div>
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/EmailIcon.svg"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px]"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Email Address"
-            />
-          </div>
-
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/phone.svg"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px]"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Phone Number"
-            />
-          </div>
-
-          <div class="w-full relative">
-            <div
-              class="absolute left-3 md:mt-[10px] top-2 2xl:top-[5px] flex items-center pointer-events-none gap-[8px]"
-            >
-              <img
-                src="assets/images/Calendar.svg"
-                alt="emailIcon"
-                class="text-[#B2A28F] md:w-[18px] md:h-[14.5px] w-[10px] h-[10px]"
-              />
-              <div class="md:h-4 h-2 border border-solid border-gray-400"></div>
-            </div>
-            <input
-              type="text"
-              class="block rounded-md w-full md:pl-[48px] 2xl:pl-[55px] pl-[44px] md:py-[14px] md:px-[13px] py-1 2xl:py-[9px] 2xl:px-[13px] md:text-sm text-[10px] text-gray-900 border-[1px] border-solid border-[#E6E8F0] focus:outline-none bg-slate-100"
-              placeholder="Preferred Closing Date"
-            />
-          </div>
-        </form>
-      </div>
-      <div class="flex justify-center">
-        <button
-          class="max-w-fit py-3 px-5 bg-blue-600 rounded-md mt-5 text-white text-[10px] md:text-lg mb-5"
-        >
-          Submit Your Closing Simulator Request
-        </button>
-      </div>
+      <!-- modal end  -->
     </div>
+    <script
+      type="text/javascript"
+      src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"
+    ></script>
   </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-      $('.testimonial-content').owlCarousel({
-          center: true,
-          loop:true,
-          nav:false,
-          margin:0,
-          dots:true,
-          autoplay:true,
-          autoplayTimeout:4000,
-          smartSpeed:800,         
-          responsive:{
-              0:{
-                  items:1
-              },
-              600:{
-                  items:1
-              },
-              1000:{
-                  items:3
-              }
-          }
-      })
-  });
-</script>
 </html>
